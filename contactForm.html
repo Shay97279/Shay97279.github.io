@@ -20,45 +20,60 @@
           <h1 class="text-center">Email - JavaScript Contact Form</h1>
           <!-- contact form -->
           <form id="myForm">
+
             <!-- name -->
             <div class="form-group">
-              <label for="name">Name</label>
+              <label for="user_lname">Last Name</label>
               <input
-                type="name"
-                name="name"
+                type="user_lname"
+                name="user_lname"
                 class="form-control"
-                id="name"
-                placeholder="enter your name"
+                id="user_lname"
+                placeholder="enter your last name"
               />
             </div>
 
+
+            <div class="form-group">
+                <label for="user_fname">First Name</label>
+                <input
+                  type="user_fname"
+                  name="user_fname"
+                  class="form-control"
+                  id="user_fname"
+                  placeholder="enter your first name"
+                />
+              </div>
+
             <!-- email -->
             <div class="form-group">
-              <label for="email">Email address</label>
+              <label for="user_email">Email address</label>
               <input
-                type="email"
-                name="email"
+                type="user_email"
+                name="user_email"
                 class="form-control"
-                id="email"
+                id="user_email"
                 placeholder="enter your email"
               />
             </div>
 
-            <!-- subject -->
+
+            <!-- phone num -->
             <div class="form-group">
-              <label for="subject">Subject</label>
-              <input
-                type="text"
-                name="subject"
+                <label for="user_phone">Phone Number</label>
+                <input
+                type="user_phone"
+                name="user_phone"
                 class="form-control"
-                id="subject"
-                placeholder="enter email subject"
-              />
+                id="user_phone"
+                placeholder="enter your phone number"
+                />
             </div>
 
+
             <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+              <label for="user_message">Message</label>
+              <textarea class="form-control" id="user_message" name="user_message" rows="5"></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
