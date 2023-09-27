@@ -14,7 +14,7 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <title>JavaScript Emailjs</title>
+    <title>Contact Form/title>
   </head>
   <body>
 
@@ -108,6 +108,48 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+      
+      
+    ></script>
+
+    <script type="text/javascript">      (function () {
+        emailjs.init("YOUR_USER_ID");
+        emailjs.send("service_isty8b7","template_hghujn7");
+
+      })();
+    </script>
+
+
+<script>
+  // listen to the form submission
+  document
+    .getElementById("myForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const serviceID = "service_b4qmiqc";
+      const templateID = "template_fv38whr";
+
+      // send the email here
+      emailjs.sendForm(serviceID, templateID, this).then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          alert("FAILED...", error);
+        }
+      );
+    });
+</script>
+
+    
 
 </body>
 </html>
