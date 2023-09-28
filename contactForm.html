@@ -130,6 +130,28 @@
       document
         .getElementById("myForm")
         .addEventListener("submit", function (event) {
+
+        if(document.getElementById('userMessage').value.trim() == ""){
+            errorMessage += " message.\n";
+            console.log("Please enter a message.");
+        }
+        if(document.getElementById('userFirstName').value.trim() == ""){
+            errorMessage += " first name.\n";
+            console.log("Please enter a first name.");
+        }
+        if(document.getElementById('userLastName').value.trim() == ""){
+            errorMessage += " last name.\n";
+            console.log("Please enter a last name.");
+        }
+        if(!errorMessage == "Please enter a valid:\n"){
+            document.getElementById('error').innerHTML = errorMessage;
+        }
+
+
+
+
+
+
           event.preventDefault();
 
           const serviceID = "service_isty8b7";
