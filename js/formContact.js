@@ -1,6 +1,4 @@
 
-
-
 // Added my publickey for patelsap@udel.edu emailjs account
 emailjs.init("Ub8cDbbdgzrXVF0bF");
 
