@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
       console.log(SUCCESS);
       if (SUCCESS) {
-        emailjs.send("service_isty8b7","template_mcnpwbr",{
+        emailjs.send("service_isty8b7","template_83miy67",{
           user_fname: user_fname,
           message: user_message,
           user_email: user_email,
