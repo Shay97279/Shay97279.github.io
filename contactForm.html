@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="/css/styles.css">
-        <title>Contact</title>
+        <title>ContactForm</title>
         <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         <script src="/js/formContact.js"></script>
         <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
@@ -23,7 +23,9 @@
 
 
     <div class="emailstyle" style="padding-top: 45px;">
-        <h1>Contact Me</h1>
+        <h1>Contact Me Here</h1>
+        <h2>Feel free to reach out with any questions or concerns.</h2>
+
         <form id="contactform">
             <div class="form-group"  style="text-align:center">
                 <label for="user_fname">First Name:</label>
@@ -54,10 +56,10 @@
                 <textarea id="user_message" class="form-control messageBox" required rows="5"></textarea>
             </div>
             <br>
-            <input type="submit" id="go" class="button" value="Send Message">
+            <input type="submit" id="go" class="button" value="Send Message" style="text-align:center">
 
             <br>
-            <span class="success" id="success">Thanks for Reaching out!</span>
+            <span class="success" id="success" style="text-align:center">Thanks for Reaching out!</span>
         </form>
     </div>
 </body>
