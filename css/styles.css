@@ -40,7 +40,6 @@ background-color: #04AA6D;
 color: white;
 }
 
-
 .box {
   text-align: center;
   background-color: rgb(48, 47, 47);
@@ -50,6 +49,6 @@ color: white;
 
 .emailstyle {
   background-color: rgb(48, 47, 47);
-  color :#cccc22;
+  color :#ff8000;
   padding: 20px;
 }
