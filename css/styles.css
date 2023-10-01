@@ -30,7 +30,7 @@ font-size: 17px;
 
 /* hovering within navbar */
 .topnav a:hover {
-background-color: #b601ce;
+background-color: #000000;
 color: black;
 }
 
@@ -42,7 +42,7 @@ color: white;
 
 .box {
   text-align: center;
-  background-color: #b601ce;
+  background-color: #000000;
   color: #ff8000;
   padding: 20px;
 }
