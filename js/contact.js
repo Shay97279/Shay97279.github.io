@@ -1,4 +1,4 @@
-emailjs.init("VtO31SlK7PTEP7KBC");
+emailjs.init("T67m0QyawaDcdmfr_");
 
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("form").addEventListener("submit", function(event) {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
       console.log(SUCCESS);
       if (SUCCESS) {
-        emailjs.send("service_u2jiu56","template_phef9j4",{
+        emailjs.send("service_isty8b7","template_mcnpwbr",{
           user_fname: user_fname,
           message: user_message,
           user_email: user_email,
