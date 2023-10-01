@@ -1,4 +1,4 @@
-emailjs.init("T67m0QyawaDcdmfr_");
+emailjs.init("Ub8cDbbdgzrXVF0bF");
 
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("form").addEventListener("submit", function(event) {
