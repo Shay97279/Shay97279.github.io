@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (SUCCESS) {
         emailjs.send("service_isty8b7","testtemp",{
           user_fname: user_fname,
-          message: user_message,
+          user_message: user_message,
           user_email: user_email,
           user_phone: user_phone,
           user_lname: user_lname,
