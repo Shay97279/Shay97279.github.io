@@ -39,3 +39,17 @@ color: black;
 background-color: #04AA6D;
 color: white;
 }
+
+
+.box {
+  text-align: center;
+  background-color: rgb(48, 47, 47);
+  color: #cccc22;
+  padding: 20px;
+}
+
+.emailstyle {
+  background-color: rgb(48, 47, 47);
+  color :#cccc22;
+  padding: 20px;
+}
