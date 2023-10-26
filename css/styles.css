@@ -8,14 +8,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: navy;
+  background: rgb(48, 48, 249);
 }
 
 
 
 /* nav bar background */
 .topnav {
-background-color: #333;
+background-color: #ff7575;
 overflow: hidden;
 }
 
@@ -32,7 +32,7 @@ font-size: 17px;
 /* hovering within navbar */
 .topnav a:hover {
 background-color: black;
-color: rgb(5, 61, 175);
+color: rgb(120, 164, 250);
 }
 
 /* discrepancy on current link */
