@@ -43,9 +43,9 @@ color: white;
 
 .box2 {
   text-align: center;
-  background: navy;
   color: navy;
   padding: 20px;
+  background:linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgb(249, 60, 18) 100%);
 }
 
 .emailstyle {
