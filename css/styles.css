@@ -86,3 +86,13 @@ footer {
 .contact-info i{
   font-size: 40px;
 }
+
+
+.contain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcenter {
+  text-align: center;
+}
