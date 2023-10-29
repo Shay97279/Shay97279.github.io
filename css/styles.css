@@ -1,3 +1,4 @@
+
 .box {
   border: 1px solid black;
   padding: 10px;
@@ -114,3 +115,204 @@ footer {
 
 
 
+
+
+
+
+.box {
+  text-align: center;
+  background-color: #3A3335;
+  color: #ECCE8E;
+  padding: 0px;
+}
+
+.emailstyle {
+  background-color: #3A3335;
+  color :#ECCE8E;
+  padding: 20px;
+}
+
+.links {
+  list-style-type: none;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3A3335;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #ECCE8E;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #ED6A5A;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.dropdown{
+  position: relative;
+  margin-bottom: 10px  }
+
+.down{
+  position: absolute;
+  top: 20px;
+  left: 0%; 
+  opacity: 0; 
+  visibility: hidden; 
+  width: 50px; 
+  background-color: rgb(27, 27, 27); 
+  z-index: 1010; 
+  transition: all 0.3s; 
+}
+
+.dropdown:hover .down{
+opacity: 1;
+visibility: visible;
+width: 200px; 
+padding: 10px 0px;
+margin-bottom: 100px;
+}
+
+.down a{
+display: block;
+padding: 10px 15px;
+text-decoration: none;
+color: #1e292B;
+}
+
+.down a:hover{
+background-color: rgb(27, 27, 27);
+color: #ECCE8E;
+}
+
+.down li, .down a{
+background-color: rgb(27, 27, 27);
+}
+
+.footerLinks {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3A3335;
+}
+
+.footerLinks ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.footerLinks ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.footerLinks ul li a {
+  text-decoration: none;
+  color: #ECCE8E;
+  text-transform: uppercase;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+.about-me img {
+  float: left;
+  margin-right: 20px;
+}
+
+.text-content {
+  flex: 1;
+  text-align: left;
+}
+
+.project-gifs{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.project-gifs li{
+  color: #ECCE8E;
+  padding: 10px;
+  text-align: center;
+}
+
+.popup-text-container {
+  position: relative;
+  display: inline-block; /* Ensures proper positioning of the tooltip */
+}
+
+.hover-header {
+  text-decoration: underline;
+  cursor: pointer; /* Add a pointer cursor on hover */
+  display: block;
+}
+
+.popup-text {
+  display: none;
+  position: absolute;
+  background-color: #3A3335;
+  border: 1px solid #ED6A5A;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  top: 100%; /* Position the tooltip below the header */
+  left: 0;
+  z-index: 1; /* Ensure the tooltip appears above other elements */
+}
+
+.popup-text-container:hover .popup-text {
+  display: block; /* Show the tooltip when hovering over the container */
+  z-index: 1000;
+}
+
+a:visited{
+  color:#ECCE8E
+}
+
+.contact-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 0;
+}
