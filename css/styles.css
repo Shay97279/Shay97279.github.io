@@ -33,7 +33,7 @@
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #04AA6D;
+  background-color: #0430aa;
   color: white;
 }
 
@@ -88,7 +88,7 @@
 
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #3ad2f4;
   color: black;
 }
 
