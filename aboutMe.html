@@ -13,18 +13,32 @@
     <title>About Me</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://shay97279.github.io/css/styles.css">
+    <script src="/js/formContact.js"></script>
+
 </head>
 <body>
-    <div class="topnav">
+    
+    <div class="topnav" id="myTopnav">
         <a href="https://shay97279.github.io/">Home</a>
-        <a class="active" href="#aboutme">About Me</a>
+        <a class="active"href="https://shay97279.github.io/aboutMe">About Me</a>
         <a href="https://shay97279.github.io/resume">Resume</a>
         <a href="https://shay97279.github.io/projects">Projects</a>
-        <a href="https://mattm401.github.io/">Course Page</a>
-        <a href="https://faithlovell.github.io/">Previous Student</a>
-        <a href="https://rohanyar.github.io/">Next Student</a>
+        <div class="dropdown">
+          <button class="dropbtn">Class Links
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="https://mattm401.github.io/">Course Page</a>
+            <a href="https://faithlovell.github.io/">Previous Student</a>
+            <a href="https://rohanyar.github.io/">Next Student</a>
+            </div>
+        </div>
         <a href="https://shay97279.github.io/contactForm">Contact Form</a>
-    </div>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+
     <div style="text-align:center">
         <h1>About Me</h1>
         <h2>This page describes some of my interests, and more. </h2>
