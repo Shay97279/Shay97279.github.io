@@ -1,4 +1,15 @@
 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
 // Added my publickey for patelsap@udel.edu emailjs account
 emailjs.init("Ub8cDbbdgzrXVF0bF");
 

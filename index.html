@@ -13,22 +13,30 @@
     </script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://shay97279.github.io/css/styles.css">
+    <script src="/js/formContact.js"></script>
+
     <title> Main Page </title>
 </head>
  
 <body style="background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%)">
 
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="https://shay97279.github.io/aboutMe">About Me</a>
-        <a href="https://shay97279.github.io/resume">Resume</a>
-        <a href="https://shay97279.github.io/projects">Projects</a>
-        <a href="https://mattm401.github.io/">Course Page</a>
-        <a href="https://faithlovell.github.io/">Previous Student</a>
-        <a href="https://rohanyar.github.io/">Next Student</a>
-        <a href="https://shay97279.github.io/contactForm">Contact Form</a>
-          
-    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
 
 <div class="box2" style="text-align:center; background:linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgb(249, 60, 18) 100%)" >
     <div style="text-align:center" >
